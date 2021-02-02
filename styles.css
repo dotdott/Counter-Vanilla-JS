@@ -1,0 +1,42 @@
+body{
+    background-color: #eaf7f3;
+    opacity: .8;
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+
+.container {
+    text-align: center;
+    line-height: 1;
+}
+
+h1{
+font-size: 7vh;
+color: #237A78;
+text-shadow: 2px 2px #64C7A6;
+letter-spacing: .1rem;
+}
+
+.pX{
+font-size: 6vh;
+color: #237A78;
+}
+
+.btn{
+font-size: 2.9vh;
+border: .19rem solid #3AA8A1;
+border-radius: 1rem;
+letter-spacing: .1rem;
+background-color: #eaf7f3;
+color: #3AA8A1;
+cursor: pointer;
+padding: .3rem;
+outline: none;
+}
+
+.btn:hover{
+color: white;
+background-color:#237A78 ;
+}
